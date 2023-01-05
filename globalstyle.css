@@ -25,7 +25,7 @@ header {
 main {
 }
 .section1 {
-    background-image: url(/images/kang-soon-ja-faded.jpeg);
+    background-image: url(./images/kang-soon-ja-faded.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
