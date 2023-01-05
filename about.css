@@ -2,15 +2,16 @@ body {
     background-color: #fdfdff;
 }
 .storytitle {
-    text-align: right;
+    text-align: left;
     font-size: 90px;
     margin-bottom: 36px;
-    margin-top: 36px;
+    padding: 0;
 }
 .members {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 1% 0 1%;
 }
 .member {
     width: 45%;

@@ -2,15 +2,17 @@ body {
     background-color: #fdfdff;
 }
 .storytitle {
-    text-align: right;
+    text-align: left;
     font-size: 90px;
     margin-bottom: 36px;
-    margin-top: 36px;
+    padding: 0;
+    margin-top: 0;
 }
 .stories {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 1% 0 1%;
 }
 .story {
     width: 45%;
@@ -66,6 +68,8 @@ p {
 @media only screen and (max-width: 1400px) {
     .story {
         width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
     }
     .stories {
         flex-direction: row;
